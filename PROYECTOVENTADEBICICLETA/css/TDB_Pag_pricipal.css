@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf3ae;
+}
+
+/* Estilos del encabezado y carrusel */
+header {
+    width: 100%;
+    height: 300px; /* Altura del carrusel */
+    overflow: hidden;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 300px; /* Ajusta la altura */
+    object-fit: cover;
+}
+
+/* Título sobre la imagen */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.titulo-carrusel {
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+}
+
+/* Estilos del menú de navegación */
+nav {
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(230, 225, 225);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Contenedor principal con barra lateral y contenido */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 25%;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+/* Contenido principal */
+.content {
+    width: 75%;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Encabezados dentro del contenido */
+.content h2, .content h3 {
+    color: #0c0c0c;
+}
+
+
+/* video*/
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #0a0a0a; /* Puedes ajustar el color según tus preferencias */
+}
+
+video {
+    width: 100%; /* Puedes ajustar el tamaño del video según tus necesidades */
+}
+  
+
+
+
+
+

@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Estilos para la disposición de las tarjetas en flex */
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #343a40;
+    text-align: justify;
+}
+
+/* Estilo para el texto adicional */
+.card-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.text-body-secondary {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* Diseño para pantallas pequeñas */
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
